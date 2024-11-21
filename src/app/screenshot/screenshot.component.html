@@ -1,0 +1,16 @@
+<div class="screenshot">
+  <h1>Screenshot demo with htmlcanvas</h1>
+  <p>this button demonstrates taking screenshot of a specific target on the page</p>
+  <div id="screenshot-target">
+    <!-- Content to capture -->
+    <h1>Screenshot Target</h1>
+    <p>This content will be captured in the screenshot.</p>
+    <img
+      src="../../assets/scrnshot.png"
+      width="300px"
+      height="200px"
+      alt="screenshot">
+  </div>
+
+  <button (click)="takeScreenshot()">Take HtmlCanvas Screenshot</button>
+</div>
